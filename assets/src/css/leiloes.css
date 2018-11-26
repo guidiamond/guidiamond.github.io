@@ -13,3 +13,70 @@ body {
     text-align: center;
     padding-bottom: -10rem;
 }
+
+.ncontainer {
+    color: #ffe000;
+    margin: 20px 1rem;
+    text-align: left;
+}
+
+.leilao-card {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:90%;
+    height: 80%;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+}
+
+.leilao-card .leilao-box {
+    overflow: scroll;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.leilao-card .leilao-box .leilao {  
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leilao-card .leilao-box .leilao h3 {
+    text-align: left;
+    vertical-align: center;
+}
+
+.leilao-card .leilao-box .leilao div {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+}
+
+.leilao-card .leilao-box .leilao div p{
+    text-align: right;
+}
+
+.leilao-card .leilao-box .adicionar-leilao {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;    
+}
+
+.leilao-card .leilao-box .adicionar-leilao h2 {
+    text-align: center;
+    color: #2F8DFF;
+}
+
+.leilao-card .leilao-box .adicionar-leilao h2 a:visited {
+    font-style: none;
+    text-align: center;
+    color: #2F8DFF;
+}
