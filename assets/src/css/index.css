@@ -32,7 +32,6 @@ body {
     box-shadow:0 20px 50px rgba(0,0,0,.1);
     border-radius:10px;
 }
-<<<<<<< HEAD
 
 .card .box {
     position:absolute;
@@ -83,7 +82,7 @@ body {
     left:0;
     transform:translateY(-50%);
     text-align:center;
-    padding:20px;
+    padding:10px 5px;
     box-sizing:border-box;
     width:100%;
 }

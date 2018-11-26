@@ -41,21 +41,28 @@ body {
 }
 
 .leilao-card .leilao-box .leilao {  
+    background: black;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
     border-radius: 10px;
     padding: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .leilao-card .leilao-box .leilao h3 {
     text-align: left;
-    vertical-align: center;
+    margin: 20px 0px;
+}
+
+p {
+    margin: 0px;
 }
 
 .leilao-card .leilao-box .leilao div {
     display: flex;
     flex-flow: column;
-    align-content: space-between;
+    justify-content: space-between;
 }
 
 .leilao-card .leilao-box .leilao div p{
@@ -77,6 +84,28 @@ body {
 
 .leilao-card .leilao-box .adicionar-leilao h2 a:visited {
     font-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: #2F8DFF;
+}
+
+.leilao-card .leilao-box .adicionar-leilao h2 a:hover {
+    font-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: #2F8DFF;
+}
+
+.leilao-card .leilao-box .adicionar-leilao h2 a:active {
+    font-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: #2F8DFF;
+}
+
+.leilao-card .leilao-box .adicionar-leilao h2 a:focus {
+    font-style: none;
+    text-decoration: none;
     text-align: center;
     color: #2F8DFF;
 }
