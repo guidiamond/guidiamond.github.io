@@ -2,6 +2,7 @@ body {
     background-image: url(../imgs/background.jpg);
     background-size: cover;
     opacity: .8;
+    padding-bottom: 70px;
 }
 .footer {
     position: fixed;
@@ -16,59 +17,63 @@ body {
 .header {
 	color: #ffe000;
 	text-align: center;
-	font-size: 15rem;
+	font-size: 2rem;
 }
 
-
-
-.gallery-title
-{
-    font-size: 36px;
-    color: #f4df42;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-}
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #42B32F;
-    margin-bottom: 30px;
-
-}
-.filter-button:hover
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #f4df42;
-
-}
-.btn-default:active .filter-button:active
-{
-    background-color: #42B32F;
-    color: white;
+.card {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:75%;
+    min-height: 70%;
+    max-height: 80%;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
 }
 
-.port-image
-{
-    width: 100%;
+.card .box {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
 }
 
-.gallery_product
-{
-    margin-bottom: 30px;
+.card .box .profile-image {
+    width:140px;
+    height:140px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
 }
+
+.card .box .profile-image img {
+    width:100%;
+    height:100%;
+}
+
+.card .box h2 {
+    font-size: 32px;
+    margin: 20px auto;
+    color: #686868
+}
+
+.card .box .profile-info {
+    margin-top: 25px;
+}
+
+ .card .box .profile-info div {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .card .box .profile-info div p {
+    font-size: 20px;
+    color: #686868
+ }
+
