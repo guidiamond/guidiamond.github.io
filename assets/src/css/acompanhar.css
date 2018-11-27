@@ -56,6 +56,21 @@ body {
     margin-left: 5px;   
 }
 
+.card .box .leilao-criado a {
+    text-decoration: none;
+    color: #ffee00;
+}
+
+.card .box .leilao-criado a:hover {
+    text-decoration: none;
+    color: #ffee00;
+}
+
+.card .box .leilao-criado a:visited {
+    text-decoration: none;
+    color: #ffee00;
+}
+
 p {
     margin: 0px;
 }
