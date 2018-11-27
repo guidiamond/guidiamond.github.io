@@ -13,3 +13,62 @@ body {
     text-align: center;
     padding-bottom: -10rem;
 }
+
+.container {
+    color: #ffe000;
+    text-align: left;
+}
+
+.card {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:90%;
+    height: 80%;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+}
+
+.card .box {
+    overflow: scroll;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.card .box .leilao-criado {
+    background: black;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .box .leilao-criado p {
+    font-size: 18px;
+    color: #ffee00;
+    text-align: left;
+    margin-left: 5px;   
+}
+
+p {
+    margin: 0px;
+}
+
+.card .box .leilao-criado div {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.card .box .leilao-criado div p {
+    font-size: 12px;
+    margin: 5px;
+    color: #ffee00;
+    text-align: right;
+}
