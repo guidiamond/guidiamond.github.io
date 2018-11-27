@@ -1,0 +1,157 @@
+body {
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+    opacity: .8;
+    padding-bottom: 70px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: -10rem;
+}
+
+.go-back {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: middle;
+    font-style: none;
+    color: #ffe000;
+    margin: 20px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.go-back span a:visited {
+    font-style: none;
+    text-decoration: none;
+    color: #ffee00;
+}
+
+.go-back span a:hover {
+    font-style: none;
+    text-decoration: none;
+    color: #ffee00;
+}
+
+.go-back h4 {
+    margin-top: 5px;
+}
+
+
+.card {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:90%;
+    margin-top: 20px;
+    min-height: 85%;
+    max-height: 85%;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+}
+
+.card .box {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+}
+
+.card .box h4 {
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    margin: 0px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+.card .box .start {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .box .start p {
+    margin: 4px;
+}
+
+.card .box h5 {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+
+.card .box .itens {
+    height: 100px;
+    width: 100%;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.card .box .itens div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .box .ofertas {
+    height: 175px;
+    width: 100%;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    overflow: auto;
+}
+
+.card .box .ofertas .oferta {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.card .box .ofertas .oferta img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.card .box .ofertas .oferta p {
+    font-size: 10px;
+    margin: 0px;
+}
+
+.card .box .ofertas .oferta .information {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
