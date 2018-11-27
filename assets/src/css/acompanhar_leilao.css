@@ -26,14 +26,17 @@ body {
     text-align: left;
 }
 
+.go-back span a {
+    text-decoration: none;
+    color: #ffee00;
+}
+
 .go-back span a:visited {
-    font-style: none;
     text-decoration: none;
     color: #ffee00;
 }
 
 .go-back span a:hover {
-    font-style: none;
     text-decoration: none;
     color: #ffee00;
 }

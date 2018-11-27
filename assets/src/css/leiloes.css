@@ -74,6 +74,21 @@ p {
     text-align: right;
 }
 
+.leilao-card .leilao-box .leilao a {
+    text-decoration: none;
+    color: #ffee00;
+}
+
+.leilao-card .leilao-box .leilao a:visited {
+    text-decoration: none;
+    color: #ffee00;
+}
+
+.leilao-card .leilao-box .leilao a:hover {
+    text-decoration: none;
+    color: #ffee00;
+}
+
 .leilao-card .leilao-box .adicionar-leilao {
     margin: 20px auto;
     display: flex;
