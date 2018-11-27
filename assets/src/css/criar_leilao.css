@@ -133,10 +133,9 @@ body {
 }
 
 .card .box .bottom p {
-    text-decoration: bold;
-    text-align: center;
+    height: 100%;   
+    font-weight: bold;
     vertical-align: middle;
     text-align: center;
     color: black;
-    margin: 5px;
 }
