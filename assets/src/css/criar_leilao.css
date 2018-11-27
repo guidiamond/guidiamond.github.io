@@ -57,7 +57,11 @@ body {
     text-align:center;
     padding:20px;
     box-sizing:border-box;
+    height: 100%;
     width:100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 .inside-card {
@@ -103,4 +107,28 @@ body {
     text-decoration: none;
     text-align: center;
     color: #2F8DFF;
+}
+
+.card .box .bottom {
+    vertical-align: bottom;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .box .bottom div {
+    background: #686868;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius: 10px;
+    width: 95%;
+    margin: 5px;
+    text-align: center;
+}
+
+.card .box .bottom p {
+    text-decoration: bold;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin: 5px;
 }
