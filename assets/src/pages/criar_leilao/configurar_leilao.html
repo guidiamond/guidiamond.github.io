@@ -8,15 +8,82 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../css/configurar_leilao.css">
-    <script src="../js/index.js"></script>
+    <script src="../../js/index.js"></script>
+    <script type="text/javascript" src="../../js/configurar_leilao.js"></script>
 </head>
 <body>
     <div class="go-back">
-        <span class="glyphicon glyphicon-arrow-left"><a href="../leiloes.html"> Voltar</a></span>
+        <span class="glyphicon glyphicon-arrow-left"><a href="criar_leilao.html"> Voltar</a></span>
         <h4>Configurações</h4>
     </div>
     <div class="card">
         <div class="box">
+            <form>
+                <div class="form-group">
+                    <label for="tempo-leilao">Tempo de Leilão</label>
+                    <select class="tempo-leilao">
+                        <option value="1">1 hora</option>
+                        <option value="2">2 horas</option>
+                        <option value="3">3 horas</option>
+                        <option value="4">4 horas</option>
+                        <option value="5">5 horas</option>
+                        <option value="6">6 horas</option>
+                        <option value="7">7 horas</option>
+                        <option value="8">8 horas</option>
+                        <option value="9">9 horas</option>
+                        <option value="10">10 horas</option>
+                        <option value="11">11 horas</option>
+                        <option value="12">12 horas</option>
+                        <option value="13">13 horas</option>
+                        <option value="14">14 horas</option>
+                        <option value="15">15 horas</option>
+                        <option value="16">16 horas</option>
+                        <option value="17">17 horas</option>
+                        <option value="18">18 horas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="priorizar">Priorizar:</label>
+                    <div class="div-priorizar">
+                        <input type="checkbox">
+                        <label>Custo</label>
+                    </div>
+                    <div class="div-priorizar">
+                        <input type="checkbox">
+                        <label>Tempo de Entrega</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="tempo-entrega">Tempo Máximo de Entrega</label>
+                    <select class="tempo-entrega">
+                        <option value="1">1 hora</option>
+                        <option value="2">2 horas</option>
+                        <option value="3">3 horas</option>
+                        <option value="4">4 horas</option>
+                        <option value="5">5 horas</option>
+                        <option value="6">6 horas</option>
+                        <option value="7">7 horas</option>
+                        <option value="8">8 horas</option>
+                        <option value="9">9 horas</option>
+                        <option value="10">10 horas</option>
+                        <option value="11">11 horas</option>
+                        <option value="12">12 horas</option>
+                        <option value="13">13 horas</option>
+                        <option value="14">14 horas</option>
+                        <option value="15">15 horas</option>
+                        <option value="16">16 horas</option>
+                        <option value="17">17 horas</option>
+                        <option value="18">18 horas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="valor-maximo">Valor Máximo a Ser Pago</label>
+                    <input class="valor-maximo" type="number" min="1" max="100000" placeholder="500">
+                </div>
+            </form>
+            <div class="salvar">
+                <h5><a href="criar_leilao.html">Salvar Configurações</a></h5>
+            </div>
         </div>
     </div>
 </body>

@@ -70,5 +70,70 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    align-items: center;
+    overflow: auto;
 }
 
+.card .box .form-group {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.card .box .form-group .tempo-leilao {
+    width: 50%;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px
+}
+
+.card .box .form-group .div-priorizar {
+    margin-top: 5px;
+}
+
+.card .box .form-group .div-priorizar label {
+    color: #686868;
+    margin-top: 5px;
+}
+
+.card .box .form-group .tempo-entrega {
+    width: 50%;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.card .box .form-group .valor-maximo {
+    box-shadow: none;
+    width: 50%;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.card .box .salvar {
+    color: black;
+    background-color: #686868;
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+}
+
+.card .box .salvar a {
+    color: black;
+    text-decoration: none;
+}
+
+.card .box .salvar a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.card .box .salvar a:hover {
+    color: black;
+    text-decoration: none;
+}
