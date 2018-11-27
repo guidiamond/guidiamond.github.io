@@ -42,6 +42,7 @@ body {
     margin-top: 5px;
 }
 
+
 .card {
     position:absolute;
     top:50%;
@@ -66,19 +67,8 @@ body {
     box-sizing:border-box;
     height: 100%;
     width:100%;
-    overflow: auto;
-}
-
-.card .box .itens-possiveis {
-    overflow: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
-.card .box .itens-possiveis img {
-    margin-top: 25px;
-    border-radius: 15px;
-    max-width: 100px;
-}
