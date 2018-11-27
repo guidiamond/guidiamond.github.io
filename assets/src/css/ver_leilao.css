@@ -81,12 +81,11 @@ body {
     margin: 0px;
     border-bottom: solid;
     border-width: 2px;
-    border-radius: 3px;
 }
 
 .card .box .start {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
