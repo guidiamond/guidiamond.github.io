@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    color: #ffe000;
-    text-align: left;
+    color: #3f3f3f;
+    text-align: center;
 }
 
 .card {
@@ -51,24 +51,24 @@ body {
 
 .card .box .leilao-criado p {
     font-size: 18px;
-    color: #ffee00;
+    color: #3f3f3f;
     text-align: left;
     margin-left: 5px;   
 }
 
 .card .box .leilao-criado a {
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .card .box .leilao-criado a:hover {
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .card .box .leilao-criado a:visited {
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 p {
@@ -84,6 +84,6 @@ p {
 .card .box .leilao-criado div p {
     font-size: 12px;
     margin: 5px;
-    color: #ffee00;
+    color: #3f3f3f;
     text-align: right;
 }

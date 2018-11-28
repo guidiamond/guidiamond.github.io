@@ -15,9 +15,9 @@ body {
 }
 
 .ncontainer {
-    color: #ffe000;
+    color: #3f3f3f;
     margin: 20px 1rem;
-    text-align: left;
+    text-align: center;
 }
 
 .leilao-card {
@@ -52,7 +52,7 @@ body {
 
 .leilao-card .leilao-box .leilao p {
     font-size: 18px;
-    color: #ffee00;
+    color: #3f3f3f;
     text-align: left;
     margin-left: 5px;   
 }
@@ -70,23 +70,23 @@ p {
 .leilao-card .leilao-box .leilao div p{
     font-size: 12px;
     margin: 5px;
-    color: #ffee00;
+    color: #3f3f3f;
     text-align: right;
 }
 
 .leilao-card .leilao-box .leilao a {
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .leilao-card .leilao-box .leilao a:visited {
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .leilao-card .leilao-box .leilao a:hover {
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .leilao-card .leilao-box .adicionar-leilao {
@@ -99,33 +99,33 @@ p {
 
 .leilao-card .leilao-box .adicionar-leilao h2 {
     text-align: center;
-    color: #2F8DFF;
+    color: #474aff;
 }
 
 .leilao-card .leilao-box .adicionar-leilao h2 a:visited {
     font-style: none;
     text-decoration: none;
     text-align: center;
-    color: #2F8DFF;
+    color: #474aff;
 }
 
 .leilao-card .leilao-box .adicionar-leilao h2 a:hover {
     font-style: none;
     text-decoration: none;
     text-align: center;
-    color: #2F8DFF;
+    color: #474aff;
 }
 
 .leilao-card .leilao-box .adicionar-leilao h2 a:active {
     font-style: none;
     text-decoration: none;
     text-align: center;
-    color: #2F8DFF;
+    color: #474aff;
 }
 
 .leilao-card .leilao-box .adicionar-leilao h2 a:focus {
     font-style: none;
     text-decoration: none;
     text-align: center;
-    color: #2F8DFF;
+    color: #474aff;
 }

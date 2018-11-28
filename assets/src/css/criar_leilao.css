@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     align-items: middle;
     font-style: none;
-    color: #ffe000;
+    color: #3f3f3f;
     margin: 20px;
     font-size: 24px;
     text-align: left;
@@ -29,13 +29,13 @@ body {
 .go-back span a:visited {
     font-style: none;
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .go-back span a:hover {
     font-style: none;
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .go-back h4 {
@@ -88,7 +88,7 @@ body {
 }
 
 .inside-card .inside-box p {
-    color: #ffee00;
+    color: #3f3f3f;
     text-align: left;
 }
 
@@ -101,20 +101,20 @@ body {
 
 .inside-card .inside-box .itens-necessarios .adicionar-item h2 {
     text-align: center;
-    color: #2F8DFF;
+    color: #474aff;
 }
 
 .inside-card .inside-box .itens-necessarios .adicionar-item a:visited {
     font-style: none;
     text-align: center;
-    color: #2F8DFF;
+    color:#474aff;
 }
 
 .inside-card .inside-box .itens-necessarios .adicionar-item a:active {
     font-style: none;
     text-decoration: none;
     text-align: center;
-    color: #2F8DFF;
+    color:#474aff;
 }
 
 .card .box .bottom {
@@ -124,18 +124,18 @@ body {
 }
 
 .card .box .bottom div {
-    background: #686868;
+    background: #3f3f3f;
     box-shadow:0 20px 50px rgba(0,0,0,.1);
     border-radius: 10px;
     width: 95%;
     margin: 5px;
     text-align: center;
+    color: white;
 }
 
 .card .box .bottom p {
     height: 100%;   
-    font-weight: bold;
+    color: white;
     vertical-align: middle;
     text-align: center;
-    color: black;
 }

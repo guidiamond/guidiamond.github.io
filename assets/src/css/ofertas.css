@@ -32,7 +32,7 @@ h6 {
     justify-content: space-between;
     align-items: middle;
     font-style: none;
-    color: #ffe000;
+    color: #3f3f3f;
     margin: 20px;
     font-size: 24px;
     text-align: left;
@@ -41,13 +41,13 @@ h6 {
 .go-back span a:visited {
     font-style: none;
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .go-back span a:hover {
     font-style: none;
     text-decoration: none;
-    color: #ffee00;
+    color: #3f3f3f;
 }
 
 .go-back h4 {
