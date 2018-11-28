@@ -5,6 +5,7 @@ body {
     padding-bottom: 70px;
 }
 .footer {
+    opacity: 0.95;
     position: fixed;
     left: 0;
     bottom: 0;

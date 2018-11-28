@@ -5,6 +5,7 @@ body {
     padding-bottom: 70px;
 }
 .footer {
+    opacity: 0.95;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -88,7 +89,7 @@ body {
 }
 
 .inside-card .inside-box p {
-    color: #3f3f3f;
+    color: white;
     text-align: left;
 }
 

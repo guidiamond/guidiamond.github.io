@@ -5,6 +5,7 @@ body {
     padding-bottom: 70px;
 }
 .footer {
+    opacity: 0.95;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -52,7 +53,7 @@ body {
 
 .leilao-card .leilao-box .leilao p {
     font-size: 18px;
-    color: #3f3f3f;
+    color: white;
     text-align: left;
     margin-left: 5px;   
 }
@@ -70,23 +71,23 @@ p {
 .leilao-card .leilao-box .leilao div p{
     font-size: 12px;
     margin: 5px;
-    color: #3f3f3f;
+    color: white;
     text-align: right;
 }
 
 .leilao-card .leilao-box .leilao a {
     text-decoration: none;
-    color: #3f3f3f;
+    color: white;
 }
 
 .leilao-card .leilao-box .leilao a:visited {
     text-decoration: none;
-    color: #3f3f3f;
+    color: white;
 }
 
 .leilao-card .leilao-box .leilao a:hover {
     text-decoration: none;
-    color: #3f3f3f;
+    color: white;
 }
 
 .leilao-card .leilao-box .adicionar-leilao {
