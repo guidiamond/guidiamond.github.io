@@ -1,6 +1,6 @@
 body {
     background-image: url(../imgs/background.jpg);
-    background-size: cover;
+    background-size: auto;
     opacity: .8;
     padding-bottom: 70px;
 }
