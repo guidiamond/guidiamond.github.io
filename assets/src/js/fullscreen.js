@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    let iframe = document.querySelector('body');
+    let iframe = document.querySelector('.body');
 
     if(iframe.requestFullscreen) {
       iframe.requestFullscreen()
